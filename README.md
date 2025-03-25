@@ -43,7 +43,7 @@ This Java-based Quiz Application allows users to take quizzes on various subject
 
 1. Clone the repository:
 
-   git clone https://github.com/shivanejivaji/quiz-app.git
+   git clone [https://github.com/shivanejivaji/quiz-app.git](https://github.com/shivanejivaji/Quiz-Application.git)
    cd quiz-app
 
 2. Configure database connection:
@@ -57,10 +57,15 @@ This Java-based Quiz Application allows users to take quizzes on various subject
 3. Build the project:
    mvn clean install
 
-4. **Run the application**:
-   ```bash
+4. Run the application:
+   
    java -jar target/quiz-app-1.0.jar
-   ```
+
+5. jar Files Download Link
+
+   postgresql : https://jdbc.postgresql.org/download/
+
+   Apache PDFBox: https://pdfbox.apache.org/download.html
 
 ## Usage
 
@@ -87,8 +92,6 @@ The project uses the following main dependencies:
 - **OpenCSV** (for CSV export)
 - **Java Swing** (for GUI)
 
-All dependencies are managed through Maven and specified in the `pom.xml` file.
-
 ## Troubleshooting
 
 ### Common Issues
@@ -106,10 +109,7 @@ All dependencies are managed through Maven and specified in the `pom.xml` file.
    - Ensure Java version is compatible (JDK 11+)
    - Verify all Swing components are properly initialized
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For support or questions, please contact: [your.email@example.com](mailto:your.email@example.com)
+For support or questions, please contact: [shivanejivaji@gmail.com](mailto:shivanejivaji@gmail.com)
